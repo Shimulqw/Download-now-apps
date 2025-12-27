@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8" />
+<title>Offer Pointer</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #111;
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 450px;
+    }
+
+    /* Top Image */
+    .top-image {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Info Box */
+.info-box {
+    background: #1abc9c; /* টিয়া কালার */
+    color: #002b2b;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.6;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+    /* Pointer Emoji */
+    .pointer {
+        position: absolute;
+        top: 165px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 55px;
+        animation: bounce 1s infinite;
+        z-index: 999;
+        pointer-events: none;
+    }
+
+    @keyframes bounce {
+        0%   { transform: translate(-50%, 0px); }
+        50%  { transform: translate(-50%, 12px); }
+        100% { transform: translate(-50%, 0px); }
+    }
+
+    /* Text */
+    .hint {
+        position: absolute;
+        top: 220px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        animation: blink 1s infinite;
+        z-index: 999;
+        pointer-events: none;
+    }
+
+    @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+    }
+
+    iframe {
+        width: 100%;
+        height: 700px;
+        border: none;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!-- 🔵 আপনার বড় ইমেজ এখানে -->
+    <img src="https://i.imgur.com/00ebw8R.jpeg" class="top-image" alt="Locked Video Image">
+
+    <!-- 🔵 ভিডিও লক নোটিশ -->
+<div class="info-box">
+    <b style="color:#ffffff; font-size:26px;">
+        ⚠️ The video is currently locked
+    </b>
+    <br><br>
+
+    <span style="color:#003333;">
+        Download now 1 apps
+        <b style="color:#ffffff;">new app>Download now 1 apps
+    </span>
+    <br><br>
+
+    <span style="color:#004d4d;">
+        apps <b style="color:#ffffff;">30 second run apps</b>
+        then you return this page
+    </span>
+    <br><br>
+
+    <span style="color:#002222; font-weight:bold;">
+        The video will unlock automatically.
+    </span>
+</div>
+
+    <!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8" />
+<title>Offer Pointer</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #111;
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 450px;
+    }
+
+    /* Pointer Emoji */
+    .pointer {
+        position: absolute;
+        top: 165px;   /* ← এখানে মান কমালে বা বাড়ালে WhatsApp-এর সাথে লাগবে */
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 55px;
+        animation: bounce 1s infinite;
+        z-index: 999;
+        pointer-events: none;
+    }
+
+    @keyframes bounce {
+        0%   { transform: translate(-50%, 0px); }
+        50%  { transform: translate(-50%, 12px); }
+        100% { transform: translate(-50%, 0px); }
+    }
+
+    /* Text */
+    .hint {
+        position: absolute;
+        top: 220px;   /* ↓ টেক্সট নিচে */
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        animation: blink 1s infinite;
+        z-index: 999;
+        pointer-events: none;
+    }
+
+    @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+    }
+
+    iframe {
+        width: 100%;
+        height: 700px;
+        border: none;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="wrapper">
+
+    <div class="pointer">👇</div>
+    <div class="hint"></div>
+
+    <iframe src="https://lockedapp.store/cl/i/4oo2w4"></iframe>
+
+</div>
+
+</body>
+  </html>
